@@ -12,8 +12,8 @@
   --clr-accent-light-500: hsl(158 36% 37%); 
   --clr-accent-light-900: hsl(158 36% 20%);
 
-  --bg-dark: hsl(30 20% 32%);
-  --bg-secondary-dark: hsl(0 0% 12%);
+  --bg-dark: hsl(30 10% 10%);
+  --bg-secondary-dark: hsl(0 5% 20%);
   --text2-dark: hsl(212 38% 70%);
   --text1-dark: hsl(228 12% 80%);
   --clr-accent-dark-500: hsl(158 30% 44%); 
