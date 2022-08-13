@@ -5,6 +5,7 @@
   height: 30px;
   border-radius: 15px;
   border: none;
+  cursor: pointer;
   background-color: hsl(0 0% 12%);
   transition: background-color 300ms ease-in-out;
 }
