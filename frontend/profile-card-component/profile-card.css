@@ -44,6 +44,11 @@ body {
   font-size: var(--fs-400);
   color: var(--text1);
   background-color: var(--brand);
+  background-image: url(images/bg-pattern-top.svg),
+    url(images/bg-pattern-bottom.svg);
+  background-position: bottom 37vh right 52vw,
+    top 53vh left 47vw;
+  background-repeat: no-repeat;
 }
 
 h1,
@@ -74,38 +79,6 @@ hr {
   align-items: center;
   justify-content: center;
   gap: 1rem;
-  overflow: hidden;
-}
-
-.card-wrapper {
-  position: relative;
-  padding: 1rem;
-}
-
-.card-wrapper::before {
-  content: '';
-  position: absolute;
-  height: 978px;
-  width: 978px;
-  background-image: url(images/bg-pattern-top.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  bottom: 95px;
-  right: 215px;
-  z-index: -1;
-}
-
-.card-wrapper::after {
-  content: '';
-  position: absolute;
-  height: 978px;
-  width: 978px;
-  background-image: url(images/bg-pattern-bottom.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  top: 225px;
-  left: 145px;
-  z-index: -1;
 }
 
 .card {
@@ -113,6 +86,7 @@ hr {
   background-color: var(--surface1);
   border-radius: 0.75rem;
   overflow: hidden;
+  margin: 1rem;
   box-shadow: 0px 20px 30px hsl(0 12% 12% / 25%);
   animation: bounce-in-entry 1s ease-out;
 }
