@@ -127,6 +127,10 @@ hr {
   animation: bounce-in-entry 1s ease-out;
 }
 
+[data-theme="dark"] .card > img {
+  filter: brightness(70%) saturate(140%);
+}
+
 .profile {
   text-align: center;
   animation: bounce-in-entry 1s ease-out;
@@ -164,6 +168,7 @@ hr {
   overflow: hidden;
   border: 5px solid var(--surface1);
   margin-block-start: calc(var(--_size) / -2);
+  isolation: isolate;
 }
 
 .profile__desc {
