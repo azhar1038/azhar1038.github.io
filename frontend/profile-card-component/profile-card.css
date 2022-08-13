@@ -23,16 +23,6 @@
   --fs-600: 1.125rem;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    color-scheme: dark;
-    --brand: var(--brand-dark);
-    --text1: var(--text1-dark);
-    --text2: var(--text2-dark);
-    --surface1: var(--surface1-dark);
-  }
-}
-
 [data-theme="light"] {
   color-scheme: light;
   --brand: var(--brand-light);
