@@ -14,13 +14,7 @@ function ProjectItem({ project }: { project: Project }) {
   return (
     <div class={styles.card}>
       <h2 class="highlight-text interactable">
-        {project.url ? (
-          <a href={project.url} target="_blank">
-            {project.name}
-          </a>
-        ) : (
-          project.name
-        )}
+        {project.url ? <a href={project.url}>{project.name}</a> : project.name}
       </h2>
       <p>{project.description}</p>
       <ul class="plain-list">
