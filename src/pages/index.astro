@@ -9,6 +9,7 @@ import AnimatedLink from "../components/AnimatedLink.astro";
 import craiyon from "../assets/images/craiyon-server.jpg";
 import upiIndia from "../assets/images/upi-india.png";
 import ccm from "../assets/images/ccm.png";
+import markdownMate from "../assets/images/markdown-mate.png";
 ---
 
 <IndexLayout title="Md Azharuddin">
@@ -135,6 +136,19 @@ import ccm from "../assets/images/ccm.png";
       </AnimatedLink>
     </StickySection>
     <StickySection sectionTitle="Projects" id="projects">
+      <ProjectCard
+        name="Markdown Mate (WIP)"
+        image={markdownMate}
+        link="https://marketplace.visualstudio.com/items?itemName=azhar.markdown-mate"
+        skills={["Typescript", "VS Code Extension", "Markdown"]}
+      >
+        <p>
+          This is my first VS Code extension to help with some basic markdown
+          files related tasks. Currently it only supports generating Table of
+          Contents but I am planning to add formatting as well with shortcuts
+          and commands.
+        </p>
+      </ProjectCard>
       <ProjectCard
         name="Craiyon Server"
         image={craiyon}
