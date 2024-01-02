@@ -1,6 +1,6 @@
 ---
 title: Frontendmentor Challenges
-url: https://github.com/azhar1038/frontendmentor
+url: https://azhar1038.github.io/frontendmentor
 lastUpdated: "2023-02-19"
 tags: ["HTML", "CSS", "Javascript", "React"]
 ---
