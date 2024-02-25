@@ -14,7 +14,7 @@ const { name, image, link, skills } = Astro.props;
 
 <IndexCard list={skills}>
   <span slot="lead">
-    <Image src={image} alt={`Image for project ${name}`} class="image" />
+    <Image src={image} alt={`Project ${name}`} class="image" />
   </span>
   <AnimatedLink href={link} class="interactable" slot="header">
     {name}
